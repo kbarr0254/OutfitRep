@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Outfit Planner</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <h1>Welcome to Your Outfit Planner!</h1>
+  <nav>
+    <a href="/clothes">View Clothing Items</a><br>
+    <a href="/outfits">View Outfits</a><br>
+  </nav>
+  <h2>Add Clothing Item</h2>
+  <form method="POST" action="/clothes/add">
+    <input name="type" placeholder="Type (e.g., Top)" required>
+    <input name="color" placeholder="Color" required>
+    <input name="description" placeholder="Description">
+    <button>Add</button>
+  </form>
+  <h2>Add Outfit</h2>
+  <form method="POST" action="/outfits/add">
+    <input name="name" placeholder="Outfit Name" required>
+    <input name="outfit_date" type="date" required>
+    <input name="notes" placeholder="Notes">
+    <button>Add Outfit</button>
+  </form>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Outfit Planner</title>
+  <link rel="stylesheet" href="/public/style.css">
+</head>
+<body>
+  <h1>Welcome to Your Outfit Planner!</h1>
+  <nav>
+    <a href="/clothes">View Clothing Items</a><br>
+    <a href="/outfits">View Outfits</a><br>
+  </nav>
+  <h2>Add Clothing Item</h2>
+  <form method="POST" action="/clothes/add">
+    <input name="type" placeholder="Type (e.g., Top)" required>
+    <input name="color" placeholder="Color" required>
+    <input name="description" placeholder="Description">
+    <button>Add</button>
+  </form>
+  <h2>Add Outfit</h2>
+  <form method="POST" action="/outfits/add">
+    <input name="name" placeholder="Outfit Name" required>
+    <input name="outfit_date" type="date" required>
+    <input name="notes" placeholder="Notes">
+    <button>Add Outfit</button>
+  </form>
+</body>
+</html>

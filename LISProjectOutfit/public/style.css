@@ -1,0 +1,70 @@
+/* style.css */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #eafaf1; /* soft pastel green */
+  color: #3c3c3c;
+  text-align: center;
+  padding: 2rem;
+  background-image: url('<a href='https://pngtree.com/freepng/cat-peeking-from-frame_18246736.html'>png image from pngtree.com/</a>'); /* Optional background */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1 {
+  color: #6cb28e; /* muted sage green */
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: #86c7a6;
+  font-weight: bold;
+}
+
+button {
+  background-color: #b7eacb;
+  color: #2f4f4f;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #a2d9bb;
+}
+
+form, .outfit-card {
+  background-color: #ffffffc7;
+  padding: 1rem;
+  border-radius: 15px;
+  margin: 1rem auto;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+label {
+  display: block;
+  margin-top: 1rem;
+  color: #4b7d61;
+}
+
+input, select {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.3rem;
+  border: 1px solid #d0e8d3;
+  border-radius: 8px;
+}
+
+img.cute-icon {
+  width: 60px;
+  height: auto;
+  margin-top: 1rem;
+}
+

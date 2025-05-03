@@ -16,6 +16,14 @@ Hey there! Welcome to my **Outfit Planner** project! This is a simple web app th
 - **CSS**: Styles for making the app look cute.
 - **HTML**: The structure of the web pages.
 
+## 📦 MySQL Database Setup
+
+This project uses a MySQL database hosted on [freesqldatabase.com](https://www.freesqldatabase.com).
+
+### 🔑 Connection Details
+Update `db/connection.js` with your credentials or use the following:
+
+
 ## Setup and Installation
 
 Here’s how to get this app running on your local machine!
